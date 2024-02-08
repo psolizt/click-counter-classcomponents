@@ -55,7 +55,7 @@ export default App;
   
 //   const [numCliks, setNumClicks] = useState(0);
 
-//   const eventClick = () => {
+//   const handleClick = () => {
 //     setNumClicks(numCliks + 1);
 //   };
 
@@ -70,7 +70,7 @@ export default App;
 //       </div>
 //       <div className='container'>
 //         <Counter numCliks={numCliks}/>
-//         <Button text='Clic' isClickButton={true} eventClick={eventClick}/>
+//         <Button text='Clic' isClickButton={true} eventClick={handleClick}/>
 //         <Button text='Reiniciar' isClickButton={false} eventClick={countReset}/>
 //       </div>
 //     </div>
